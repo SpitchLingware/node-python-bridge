@@ -35,6 +35,7 @@ function pythonBridge(opts) {
                 ps.send({type: type, code: code});
                 ps.once('message', onMessage);
                 ps.once('close', onClose);
+                ps.once('error', (e) => reject(e));
 
                 function onMessage(data) {
                     ps.removeListener('close', onClose);

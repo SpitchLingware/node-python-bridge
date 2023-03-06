@@ -8,3 +8,6 @@ npm-shrinkwrap.json
 package-lock.json
 package-lock.json
 test_typescript.js
+.npmrc
+.idea
+
