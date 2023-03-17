@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Submersible/node-python-bridge.git"
+    "url": "ssh://git@github.com/SpitchLingware/node-python-bridge.git"
   },
   "bugs": {
     "url": "https://github.com/Submersible/node-python-bridge/issues"
